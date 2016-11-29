@@ -1,0 +1,19 @@
+{
+  "name": "gameoflife",
+  "version": "1.0.0",
+  "description": "making my own",
+  "main": "gameOfLife.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JellyGlow/gameOfLife.git"
+  },
+  "author": "JellyGlow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JellyGlow/gameOfLife/issues"
+  },
+  "homepage": "https://github.com/JellyGlow/gameOfLife#readme"
+}
