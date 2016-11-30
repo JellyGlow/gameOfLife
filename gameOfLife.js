@@ -3,9 +3,29 @@ var cols = 24;
 
 var playing = false;
 
+var grid = new Array(rows);
+var nextGrid = new Array(rows);
+
+function initializeGrids() {
+  for (var i = 0; i < rows; i++) {
+    grid[i] = new Array(cols);
+    nextGrid[i] = new Array(cols);
+  }
+}
+function resetGrids() {
+  for (var i = 0; i < rows; i++) {
+    for (var j = 0; j < cols; j++) {
+      grid[i][j] = 0;
+      nextGrid[i][j] = 0;
+    }
+  }
+}
+
 // initialize
 function initialize() {
     createTable();
+    initializeGrids();
+    resetGrids();
     setupControlButtons();
 }
 
